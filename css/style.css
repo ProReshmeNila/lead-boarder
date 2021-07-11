@@ -4,9 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
 
-/* ====================
 
-=================== */
 /* ====================
 common styles
 =================== */
@@ -34,6 +32,52 @@ main{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+/* ====================
+    Header Area
+=================== */
+
+.header {
+    background: #562EFF;
+    display: flex;
+    justify-content: center
+}
+.navbar {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.logo span {
+    color: #fff;
+    margin-left: 16px;
+}
+.menu {
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    color: #fff;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+
+
+
+
 /* ====================
 Top leader section 
 =================== */
