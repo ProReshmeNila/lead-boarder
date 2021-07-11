@@ -3,6 +3,7 @@
 ==================================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
+
 /* ====================
 
 =================== */
@@ -66,10 +67,7 @@ hr{
 /* ====================
 Top Blog area 
 =================== */
-.top-blog {
-}
-.section-title {
-}
+
 .blog-post {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,20 +77,19 @@ Top Blog area
     display: flex;
     align-items: center;
 }
-.thumbnials {
-}
 .thmb-img {
     width: 177px;
     height: 117px;
     margin-right: 16px;
-}
-.blog-details {
 }
 .blog-title {
     font-size: 20px;
     line-height: 34px;
     margin-bottom: 6px;
 }
+/* ====================
+Courese  area 
+=================== */
 .author-title {
     margin-top: 0;
     color: #9F9F9F;
@@ -103,8 +100,6 @@ p.author-title a {
     font-size: 16px;
 }
 
-.course-area {
-}
 .course {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -119,8 +114,6 @@ p.author-title a {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-}
-.course-details {
 }
 .course-banner {
     width: 224px;
@@ -139,10 +132,6 @@ p.author-title a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.ratting {
-}
-.fas {
 }
 .fa-star {
     font-size: 12px;
@@ -164,6 +153,4 @@ opacity: 0.25;
     -o-border-radius: 15px;
     color: #ED6B4F;
     font-size: 14px;
-}
-.fa-clock {
 }
